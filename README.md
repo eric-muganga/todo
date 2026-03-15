@@ -22,7 +22,7 @@ A RESTful task management API built with Java 21, Spring Boot, PostgreSQL, and D
 
 **Prerequisites:** Docker Desktop installed and running. Nothing else required.
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/eric-muganga/todo.git
 cd zadanieRekrutacyjne
 docker-compose up --build
 ```
