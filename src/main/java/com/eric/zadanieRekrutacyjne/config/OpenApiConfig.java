@@ -23,7 +23,9 @@ public class OpenApiConfig {
             if (openApi.getComponents() != null && openApi.getComponents().getSchemas() != null) {
                 openApi.getComponents().getSchemas().remove("Pageable");
                 openApi.getComponents().getSchemas().remove("PageableObject");
+                openApi.getComponents().getSchemas().remove("SortObject");
                 openApi.getComponents().getSchemas().remove("Page");
+                openApi.getComponents().getSchemas().remove("PageTaskResponse");
             }
         };
     }
